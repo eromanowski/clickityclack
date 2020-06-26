@@ -1,0 +1,40 @@
+{
+  "name": "clickityclack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "@types/reach__router": "^1.2.6",
+    "@types/react": "^16.9.6",
+    "@types/react-dom": "^16.9.2",
+    "@types/styled-components": "^4.1.19",
+    "@types/webpack": "^4.39.3",
+    "@types/webpack-env": "^1.14.1",
+    "body-parser": "^1.19.0",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "i2c-bus": "^5.2.0",
+    "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.18.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "style-loader": "^1.0.0",
+    "styled-components": "^4.4.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "run-p start:*",
+    "start:frontend": "webpack-dev-server --port 8080",
+    "start:backend": "nodemon src/backend/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
